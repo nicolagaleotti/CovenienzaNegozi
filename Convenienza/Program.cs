@@ -1,4 +1,6 @@
 ﻿using System;
+using Negozio;
+using Negozio12;
 
 namespace Convenienza
 {
@@ -6,7 +8,8 @@ namespace Convenienza
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Inserisci il prezzo totale: ");
+            double totale = double.Parse(Console.ReadLine());
         }
     }
 }
